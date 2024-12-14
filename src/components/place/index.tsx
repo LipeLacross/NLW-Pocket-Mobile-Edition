@@ -4,30 +4,28 @@ import {
   TouchableOpacityProps,
   View,
   Image,
-} from "react-native"
-import { IconTicket } from "@tabler/icons-react-native"
-
-import { s } from "./styles"
-import { colors } from "@/styles/theme"
+} from 'react-native';
+import { IconTicket } from '@tabler/icons-react-native';
+import { s } from './styles';
+import { colors } from '@/styles/theme';
 
 export type PlaceProps = {
-  id: string
-  name: string
-  description: string
-  coupons: number
-  cover: string
-  address: string
-}
+  id: string;
+  name: string;
+  description: string;
+  coupons: number;
+  cover: string;
+  address: string;
+};
 
 type Props = TouchableOpacityProps & {
-  data: PlaceProps
-}
+  data: PlaceProps;
+};
 
 export function Place({ data, ...rest }: Props) {
   return (
     <TouchableOpacity style={s.container} {...rest}>
       <Image style={s.image} source={{ uri: data.cover }} />
-
       <View style={s.content}>
         <Text style={s.name}>{data.name}</Text>
         <Text style={s.description} numberOfLines={2}>
@@ -40,5 +38,5 @@ export function Place({ data, ...rest }: Props) {
         </View>
       </View>
     </TouchableOpacity>
-  )
+  );
 }

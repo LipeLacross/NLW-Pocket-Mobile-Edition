@@ -1,12 +1,12 @@
-import { Text, View } from "react-native"
-import { IconTicket } from "@tabler/icons-react-native"
+import { Text, View } from 'react-native';
+import { IconTicket } from '@tabler/icons-react-native';
 
-import { s } from "./styles"
-import { colors } from "@/styles/theme"
+import { s } from './styles';
+import { colors } from '@/styles/theme';
 
 type Props = {
-  code: string
-}
+  code: string;
+};
 
 export function Coupon({ code }: Props) {
   return (
@@ -18,5 +18,5 @@ export function Coupon({ code }: Props) {
         <Text style={s.code}>{code}</Text>
       </View>
     </View>
-  )
+  );
 }

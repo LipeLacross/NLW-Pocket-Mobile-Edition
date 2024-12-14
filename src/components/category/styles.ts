@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native"
-import { colors, fontFamily } from "@/styles/theme"
+import { StyleSheet } from 'react-native';
+import { colors, fontFamily } from '@/styles/theme';
 
 export const s = StyleSheet.create({
   container: {
@@ -8,9 +8,9 @@ export const s = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.gray[300],
     borderRadius: 8,
-    justifyContent: "center",
-    alignItems: "center",
-    flexDirection: "row",
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
     paddingHorizontal: 12,
     gap: 10,
   },
@@ -26,4 +26,4 @@ export const s = StyleSheet.create({
   nameSelected: {
     color: colors.gray[100],
   },
-})
+});

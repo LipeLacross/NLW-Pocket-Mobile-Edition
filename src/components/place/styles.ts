@@ -1,17 +1,17 @@
-import { StyleSheet } from "react-native"
-import { colors, fontFamily } from "@/styles/theme"
+import { StyleSheet } from 'react-native';
+import { colors, fontFamily } from '@/styles/theme';
 
 export const s = StyleSheet.create({
   container: {
     height: 120,
-    width: "100%",
+    width: '100%',
     padding: 8,
     borderWidth: 1,
     borderColor: colors.gray[200],
     borderRadius: 12,
-    flexDirection: "row",
+    flexDirection: 'row',
     gap: 16,
-    alignItems: "center",
+    alignItems: 'center',
   },
   image: {
     width: 116,
@@ -34,7 +34,7 @@ export const s = StyleSheet.create({
     color: colors.gray[500],
   },
   footer: {
-    flexDirection: "row",
+    flexDirection: 'row',
     gap: 7,
     marginTop: 10,
   },
@@ -43,4 +43,4 @@ export const s = StyleSheet.create({
     fontFamily: fontFamily.regular,
     color: colors.gray[400],
   },
-})
+});

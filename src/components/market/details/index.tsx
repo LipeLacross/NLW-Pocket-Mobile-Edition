@@ -1,24 +1,24 @@
-import { View, Text } from "react-native"
-import { IconPhone, IconMapPin, IconTicket } from "@tabler/icons-react-native"
+import { View, Text } from 'react-native';
+import { IconPhone, IconMapPin, IconTicket } from '@tabler/icons-react-native';
 
-import { Info } from "@/components/market/info"
-import { s } from "./styles"
+import { Info } from '@/components/market/info';
+import { s } from './styles';
 
 export type PropsDetails = {
-  name: string
-  description: string
-  address: string
-  phone: string
-  coupons: number
+  name: string;
+  description: string;
+  address: string;
+  phone: string;
+  coupons: number;
   rules: {
-    id: string
-    description: string
-  }[]
-}
+    id: string;
+    description: string;
+  }[];
+};
 
 type Props = {
-  data: PropsDetails
-}
+  data: PropsDetails;
+};
 
 export function Details({ data }: Props) {
   return (
@@ -46,5 +46,5 @@ export function Details({ data }: Props) {
         ))}
       </View>
     </View>
-  )
+  );
 }

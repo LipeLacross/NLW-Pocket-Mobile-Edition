@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native"
-import { colors, fontFamily } from "@/styles/theme"
+import { StyleSheet } from 'react-native';
+import { colors, fontFamily } from '@/styles/theme';
 
 export const s = StyleSheet.create({
   container: {
@@ -23,7 +23,7 @@ export const s = StyleSheet.create({
     lineHeight: 22,
   },
   group: {
-    width: "100%",
+    width: '100%',
     borderBottomWidth: 1,
     borderBottomColor: colors.gray[200],
     paddingBottom: 16,
@@ -36,4 +36,4 @@ export const s = StyleSheet.create({
     marginBottom: 12,
   },
   rule: {},
-})
+});

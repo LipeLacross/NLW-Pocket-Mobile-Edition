@@ -1,14 +1,14 @@
-import { ImageBackground, View } from "react-native"
-import { IconArrowLeft } from "@tabler/icons-react-native"
+import { ImageBackground, View } from 'react-native';
+import { IconArrowLeft } from '@tabler/icons-react-native';
 
-import { router } from "expo-router"
+import { router } from 'expo-router';
 
-import { s } from "./styles"
-import { Button } from "@/components/button"
+import { s } from './styles';
+import { Button } from '@/components/button';
 
 type Props = {
-  uri: string
-}
+  uri: string;
+};
 
 export function Cover({ uri }: Props) {
   return (
@@ -19,5 +19,5 @@ export function Cover({ uri }: Props) {
         </Button>
       </View>
     </ImageBackground>
-  )
+  );
 }

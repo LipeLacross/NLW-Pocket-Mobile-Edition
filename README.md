@@ -14,7 +14,9 @@ Nearby é um aplicativo desenvolvido em React Native usando Expo Router. O objet
 
 ### Exemplo Visual do Projeto
 
-Adicione aqui capturas de tela ou GIFs do aplicativo em funcionamento.
+![image](https://github.com/user-attachments/assets/28fd4ae2-4413-4a61-af1c-be876e6b8fe2)
+![image](https://github.com/user-attachments/assets/668e46ec-e4a7-4976-adda-6e26001fe502)
+![image](https://github.com/user-attachments/assets/6b614059-ff66-4a91-9cfe-ebcd720c4e7f)
 
 ## ✔️ Técnicas e Tecnologias Utilizadas
 
